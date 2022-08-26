@@ -4,20 +4,15 @@
 <h3>Link to project: https://heybartender.netlify.app/</h3>
 
 <p align="center">
-<img src="https://github.com/swionTech/DoggoGenerator/blob/main/doggo.gif?raw=true" alt="preview of Hey, Bartender! site">
+<img src="https://github.com/swionTech/heybartender/blob/main/heybartendergiffixed.gif" alt="preview of Hey, Bartender! site">
 </p>
 
 <h2>How It's Made</h2>
 <span>Tech used: HTML, CSS, JavaScript, integration of TheCocktailDB API</span>
 
-<p>This was a fun little project I wanted to do, mainly because I am a big dog person!  I started with a more basic plain colored background, and then updated the look of it using a photo with a gradient overlay.</p>
-
-<h2>Optimizations</h2>
-<span>Media Queries for responsiveness:</span>
-<p>This app adjusts to the viewport size and is mobile-friendly!</p>
+<p>I've spent a lot of time working in the hospitality industry, and I thought it would be useful to make an app that lets bartenders quickly look up a drink - whether it's one they've never made before, or a stressful night is giving them brain fog.</p>
 
 <h2>Possible Improvements</h2>
-<p>There are some improvements still needing to be made with the responsive design.  The transparent banner behind the h1 needs to be fixed to format correctly on a smaller veiwport size, along with the text alignment of the dog info.</p>
+<p>I have not yet made this app responsive, that is the next step.  In addition, I'd like to optimize it in such a way that it will ignore any spaces accidently added to the input field.</p>
 
-<h2>Lessons Learned</h2>
-<p>I spent some time fighting with the background, both the original and photo, as it kept not fitting just right.  I finally fixed the issue by setting a min-height as 100% in the CSS.</p>
+
