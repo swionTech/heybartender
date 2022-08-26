@@ -1,0 +1,116 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.pickers {
+  display: none;
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+input {
+  height: 2rem;
+}
+
+.bottom {
+  text-align: center;
+  width: 100%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+html {
+  background: url(marble.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.col, h1, h3 {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Whisper', 'Alex Brush', cursive;
+  text-shadow: -3px 3px 3px rgb(88, 88, 88);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 3rem;
+  
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+button {
+  background: rgba(0,0,0,0);
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 10px 15px;
+}
+
+p,
+ul,
+button {
+  font-size: 1.5rem;
+}
+
+.padded {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+button:hover {
+  background: linear-gradient(lightgray, rgb(128, 128, 128, .2),gray);
+  border: 2px solid white;
+  color: white;
+}
+
+input {
+  border: 1px solid rgb(150, 150, 150);
+  box-shadow: -2px 2px 50px rgb(110, 110, 110);
+}
+
+.goBack {
+  font-family: 'Whisper', 'Alex Brush', cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: -3px 3px 3px rgb(88, 88, 88);
+}
+
+.hidden {
+  display: none;
+}
